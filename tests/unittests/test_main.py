@@ -1,9 +1,10 @@
-from stew_hash.main import greetings
+from stew_hash.main import hash
 
 
 class TestMain:
     def test_greetings_return_value(self):
-        assert greetings() == "Hello, World!"
+        print(hash('secret message'))
+        assert hash('secret message') == "secret message"
 
     def test_greetings_return_type(self):
-        assert isinstance(greetings(), str)
+        assert isinstance(hash('secret message'), str)
