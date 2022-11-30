@@ -1,6 +1,6 @@
-# Base Python Template
+# Stew hash
 
-A template of README best practices to make your README simple to understand and easy to use.
+This is a simple hashing library for python.
 
 ## Table of Contents
 
@@ -11,32 +11,25 @@ A template of README best practices to make your README simple to understand and
 
 ## Installation
 
-Download to your project directory, add `README.md`, and commit:
+Install the package using pip:
 
 ```sh
-curl -LO http://git.io/Xy0Chg
-git add README.md
-git commit -m "Use README Boilerplate"
+pip install stew-hash
 ```
 
 ## Usage
 
-Replace the contents of `README.md` with your project's:
+```python
+from stew_hash import hash
 
-- Name
-- Description
-- Installation instructions
-- Usage instructions
-- Support instructions
-- Contributing instructions
-- License
-
-Feel free to remove any sections that aren't applicable to your project.
+# Hash a string
+hash("Hello World") # 0x6dcd4ce23d88e2ee
+```
 
 ## Support
 
-Please [open an issue](https://github.com/fraction/readme-boilerplate/issues/new) for support.
+Please [open an issue](https://github.com/apinanyogaratnam/stew-hash/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/apinanyogaratnam/stew-hash/compare/).
