@@ -4,4 +4,4 @@ def hash(message: str) -> str:
     """
     # return hashlib.sha256(message.encode()).hexdigest()
     sum_of_ascii_values = sum(ord(char) for char in message)
-    return sum_of_ascii_values
+    return str(sum_of_ascii_values)
