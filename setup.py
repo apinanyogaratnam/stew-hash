@@ -4,14 +4,14 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="base-package-name",
+    name="stew-hash",
     version="0.1.0",
     author="apinanyogaratnam",
     author_email="apinanapinan@icloud.com",
-    description="A base package for Python",
+    description="A simple hashing library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/apinanyogaratnam/base-python-package-template",
+    url="https://github.com/apinanyogaratnam/stew-hash",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
