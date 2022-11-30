@@ -1,4 +1,4 @@
-from base_python_package_template.main import greetings
+from stew_hash.main import greetings
 
 
 class TestMain:
