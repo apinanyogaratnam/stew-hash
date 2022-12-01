@@ -1,6 +1,6 @@
 # Stew hash
 
-This is a simple hashing library for python.
+This is a simple hashing library for python. This package requires python version 3.10.4 or greater
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ pip install stew-hash
 from stew_hash import hash
 
 # Hash a string
-hash("Hello World") # 0x6dcd4ce23d88e2ee
+hash("Hello World") # 1084
 ```
 
 ## Support
