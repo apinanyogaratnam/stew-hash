@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="stew-hash",
-    version="0.2.0",
+    version="0.3.0",
     author="apinanyogaratnam",
     author_email="apinanapinan@icloud.com",
     description="A simple hashing library",
