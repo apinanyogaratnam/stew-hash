@@ -1,6 +1,6 @@
 # Stew hash
 
-[![Downloads](https://static.pepy.tech/personalized-badge/stew-hash?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/stew-hash)
+[![Downloads](https://static.pepy.tech/personalized-badge/stew-hash?period=total&units=none&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/stew-hash)
 
 This is a simple hashing library for python. This package requires python version 3.10.4 or greater
 
